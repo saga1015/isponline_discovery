@@ -1,4 +1,3 @@
-# port_isponline_discovery
 根据指定端口统计ISP运营商信息并在zabbix里展示
 
 1. 在zabbix某台Host或者Template中，新建Discovery rules，Key值填写"isponline_discovery[10000]"或"isponline_discovery["1000[1-9]"]"，支持正则表达式；
